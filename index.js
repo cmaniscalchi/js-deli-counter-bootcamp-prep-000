@@ -15,3 +15,9 @@ function currentLine(katzDeliLine) {
   if (katzDeliLine.length === 0) {return `The line is currently empty.`}
   else {return `The line is currently: ${array.join(", ")}`}
 }
+
+function takeANumber(katzDeliLine) {
+  var number = 1;
+  katzDeliLine.push(number++);
+  return number;
+}
