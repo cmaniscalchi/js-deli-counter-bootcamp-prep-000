@@ -16,8 +16,9 @@ function currentLine(katzDeliLine) {
   else {return `The line is currently: ${array.join(", ")}`}
 }
 
+var number = 1;
+
 function takeANumber(katzDeliLine) {
-  var number = 1;
   katzDeliLine.push(number++);
   return number;
 }
